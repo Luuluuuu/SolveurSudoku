@@ -1,0 +1,69 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tad_pile%b		tad_pile.adb		f43d143b NE OO PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U tad_pile%s		tad_pile.ads		a7cc9a64 EE OO PK IL
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D tad_coordonnee.ads	20220104154038 513dde5c tad_coordonnee%s
+D tad_pile.ads		20220119102342 f6f14438 tad_pile%s
+D tad_pile.adb		20220119101024 02cc5003 tad_pile%b
+G a e
+G c Z s b [construirepile tad_pile 15 13 none]
+G c Z s b [empile tad_pile 19 13 none]
+G c Z s b [depile tad_pile 24 13 none]
+G c Z s b [estvide tad_pile 28 13 none]
+G c Z s b [dernier tad_pile 33 13 none]
+G c Z s s [TtabcoordonneesBIP tad_pile 36 4 none]
+G c Z s s [pileIP tad_pile 38 9 none]
+X 9 tad_coordonnee.ads
+1K9*TAD_Coordonnee 28e19 10|1w6 1r26
+3R9*Type_Coordonnee 26e14 10|19r41 33r42 36r54 11|19r41 63r42
+X 10 tad_pile.ads
+3K9*TAD_Pile 36E9 42l5 42e13 11|2b14 71l5 71t13
+5X4*PILE_PLEINE 11|23r16
+6X4*PILE_VIDE 11|39r16 66r16
+8i4*TAILLE_MAX{integer} 36r39 11|22r25
+9A9*TabCoordonnees(9|3R9) 36c9 39r20
+11R9*Pile 15r35 19r28 19r65 24r28 24r41 28r29 33r29 38c9 41e14 11|8r35 9r11
+. 19r28 19r65 20r12 35r28 35r41 36r12 50r29 63r29
+15V13*construirePile{11R9} 11|8b13 13l8 13t22
+19V13*empile{11R9} 19>21 19>34 11|19b13 29l8 29t14
+19r21 p{11R9} 11|19b21 22r10 25r37 26r20 26r37 26r49
+19r34 e{9|3R9} 11|19b34 27r37
+24V13*depile{11R9} 24>21 11|35b13 44l8 44t14
+24r21 p{11R9} 11|35b21 38r19 41r38 42r38
+28V13*estVide{boolean} 28>22 11|38s10 50b13 57l8 57t15 65s10
+28r22 p{11R9} 11|50b22 52r10
+33V13*dernier{9|3R9} 33>22 11|63b13 69l8 69t15
+33r22 p{11R9} 11|63b22 65r19 68r14 68r21
+39a7*tab{9A9} 11|26m10 26r39 27m10 42m10 42r40 68r16
+40i7*nbElements{integer} 11|11m9 22r12 25m10 25r39 26r22 26r51 27r18 41m10
+. 41r40 42r23 42r53 52r12 68r23
+X 11 tad_pile.adb
+9r7 p{10|11R9} 11m7 12r14
+20r7 p1{10|11R9} 25m7 26m7 27m7 27r15 28r14
+36r7 p1{10|11R9} 41m7 42m7 42r20 42r50 43r14
+

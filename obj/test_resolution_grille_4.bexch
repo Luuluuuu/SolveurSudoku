@@ -1,0 +1,26 @@
+[GENERATED OBJECT FILE]
+b__test_resolution_grille_4.o
+[PROJECT FILES]
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\sudoku.gpr
+20220119132720 d834960ce5188da92c3dd1c59f980e9d
+[BOUND OBJECT FILES]
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\TAD_coordonnee.o
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\TAD_ensemble.o
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\affichage.o
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\TAD_grillesudoku.o
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\remplirGrille.o
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\tad_pile.o
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\resolutions.o
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\test_resolution_grille_4.o
+[GENERATED SOURCE FILES]
+b__test_resolution_grille_4.ads
+b__test_resolution_grille_4.adb
+b__test_resolution_grille_4.ali
+[RESULTING OPTIONS]
+-LC:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\
+-LC:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

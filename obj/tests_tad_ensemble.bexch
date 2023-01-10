@@ -1,0 +1,22 @@
+[MAPPING FILE]
+C:\Users\Lucille\AppData\Local\Temp\GNAT-TEMP-000005.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2021
+[MAIN BASE NAME]
+tests_tad_ensemble
+[COMPILER PATH]
+d:\gnat\2021\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+C:\Users\Lucille\Documents\sudoku\obj\tests_tad_ensemble.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+C:\Users\Lucille\Documents\sudoku\sudoku.gpr
+20220105135436 3f4612baa908eef05d43176795f208f8

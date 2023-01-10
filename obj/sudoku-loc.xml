@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\SAE1.02\Thao\Cours\BUT</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\SAE1.02\Info\S102\SAE1.02\sudoku.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\SAE1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 97" >
+      <vfs_project>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\tests\tests_resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\tests\Tests_Resolutions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 97" >
+      <vfs_project>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S102\src\tad\TAD_ensemble.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
