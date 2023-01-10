@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__run_tests_tad_ensemble.o
+[PROJECT FILES]
+C:\Users\Lucille\Documents\sudoku\sudoku.gpr
+20220105141624 ddd10a00e7943f3a4162d29aad97e700
+[BOUND OBJECT FILES]
+C:\Users\Lucille\Documents\sudoku\obj\TAD_coordonnee.o
+C:\Users\Lucille\Documents\sudoku\obj\TAD_ensemble.o
+C:\Users\Lucille\Documents\sudoku\obj\TAD_grillesudoku.o
+C:\Users\Lucille\Documents\sudoku\obj\affichage.o
+C:\Users\Lucille\Documents\sudoku\obj\remplirGrille.o
+C:\Users\Lucille\Documents\sudoku\obj\resolutions.o
+C:\Users\Lucille\Documents\sudoku\obj\tests.o
+C:\Users\Lucille\Documents\sudoku\obj\tests_TAD_Ensemble.o
+C:\Users\Lucille\Documents\sudoku\obj\run_tests_TAD_Ensemble.o
+[GENERATED SOURCE FILES]
+b__run_tests_tad_ensemble.ads
+b__run_tests_tad_ensemble.adb
+b__run_tests_tad_ensemble.ali
+[RESULTING OPTIONS]
+-LC:\Users\Lucille\Documents\sudoku\obj\
+-LC:\Users\Lucille\Documents\sudoku\obj\
+-LD:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

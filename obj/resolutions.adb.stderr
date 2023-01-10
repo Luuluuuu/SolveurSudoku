@@ -1,0 +1,2 @@
+resolutions.adb:63:21: warning: "return" statement missing following this statement [enabled by default]
+resolutions.adb:63:21: warning: Program_Error may be raised at run time [enabled by default]

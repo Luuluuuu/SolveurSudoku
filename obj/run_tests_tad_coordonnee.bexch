@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__run_tests_tad_coordonnee.o
+[PROJECT FILES]
+C:\Users\Lucille\Documents\sudoku\sudoku.gpr
+20220109143416 41b797df36226a95695b510174a8be58
+[BOUND OBJECT FILES]
+C:\Users\Lucille\Documents\sudoku\obj\TAD_coordonnee.o
+C:\Users\Lucille\Documents\sudoku\obj\tests.o
+C:\Users\Lucille\Documents\sudoku\obj\tests_TAD_Coordonnee.o
+C:\Users\Lucille\Documents\sudoku\obj\run_tests_TAD_Coordonnee.o
+[GENERATED SOURCE FILES]
+b__run_tests_tad_coordonnee.ads
+b__run_tests_tad_coordonnee.adb
+b__run_tests_tad_coordonnee.ali
+[RESULTING OPTIONS]
+-LC:\Users\Lucille\Documents\sudoku\obj\
+-LC:\Users\Lucille\Documents\sudoku\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

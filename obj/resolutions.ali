@@ -1,0 +1,167 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U resolutions%b		resolutions.adb		5ebafb0a NE OO PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U resolutions%s		resolutions.ads		203826f2 EE OO PK IL
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+W tad_ensemble%s	tad_ensemble.adb	tad_ensemble.ali
+W tad_grillesudoku%s	tad_grillesudoku.adb	tad_grillesudoku.ali
+W tad_pile%s		tad_pile.adb		tad_pile.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D resolutions.ads	20220119132750 7cfe619a resolutions%s
+D resolutions.adb	20220119172012 22449a90 resolutions%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D tad_coordonnee.ads	20220104154038 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220104154038 2a870cde tad_ensemble%s
+D tad_grillesudoku.ads	20220119090714 d18dd1d2 tad_grillesudoku%s
+D tad_pile.ads		20220119102342 f6f14438 tad_pile%s
+G a e
+G c Z s b [estchiffrevalable resolutions 16 13 none]
+G c Z s b [obtenirsolutionspossibles resolutions 24 13 none]
+G c Z s b [recherchersolutionuniquedansensemble resolutions 32 13 none]
+G c Z s b [resoudresudoku resolutions 39 14 none]
+G r c none [estchiffrevalable resolutions 16 13 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [estchiffrevalable resolutions 16 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [estchiffrevalable resolutions 16 13 none] [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none]
+G r c none [estchiffrevalable resolutions 16 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [estchiffrevalable resolutions 16 13 none] [obtenirchiffresduneligne tad_grillesudoku 50 13 none]
+G r c none [estchiffrevalable resolutions 16 13 none] [obtenircarre tad_coordonnee 17 13 none]
+G r c none [estchiffrevalable resolutions 16 13 none] [obtenirchiffresduncarre tad_grillesudoku 60 13 none]
+G r c none [estchiffrevalable resolutions 16 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [obtenirchiffresduneligne tad_grillesudoku 50 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [obtenircarre tad_coordonnee 17 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [obtenirchiffresduncarre tad_grillesudoku 60 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [obtenirsolutionspossibles resolutions 24 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [recherchersolutionuniquedansensemble resolutions 32 13 none] [nombrechiffres tad_ensemble 19 13 none]
+G r c none [recherchersolutionuniquedansensemble resolutions 32 13 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [recherchersolutionuniquedansensemble resolutions 32 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [obtenirchiffresduneligne tad_grillesudoku 50 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [obtenircarre tad_coordonnee 17 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [obtenirchiffresduncarre tad_grillesudoku 60 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [resoudresudoku resolutions 39 14 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [nombrechiffres tad_ensemble 19 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [resoudresudoku resolutions 39 14 none] [construirepile tad_pile 15 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [estvide tad_pile 28 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [dernier tad_pile 33 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [obtenirchiffre tad_grillesudoku 25 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [depile tad_pile 24 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [vidercase tad_grillesudoku 44 14 none]
+G r c none [resoudresudoku resolutions 39 14 none] [empile tad_pile 19 13 none]
+G r c none [resoudresudoku resolutions 39 14 none] [estremplie tad_grillesudoku 47 13 none]
+X 4 resolutions.ads
+6K9*resolutions 44l5 44e16 5|2b14 150l5 150t16
+8X4*PLUS_DE_UN_CHIFFRE 5|58r16
+9X4*CASE_NON_VIDE 5|17r16 38r16
+10X4*ENSEMBLE_VIDE 5|61r16
+16V13*estChiffreValable{boolean} 17>7 18>7 19>7 5|8b13 26l8 26t25 42s13
+17a7 g{13|6A9} 5|9b7 16r23 20r44 21r40 23r39
+18i7 v{integer} 5|9b27 25r44 25r79 25r114
+19r7 c{11|3R9} 5|9b40 16r25 20r61 21r55 22r32
+24V13*obtenirSolutionsPossibles{12|6A9} 25>7 26>7 5|32b13 47l8 47t33 92s32
+. 111s35
+25a7 g{13|6A9} 5|33b7 37r23 42r31
+26r7 c{11|3R9} 5|33b27 37r25 42r35
+32V13*rechercherSolutionUniqueDansEnsemble{integer} 33>7 5|53b13 68l8 68t44
+. 95s36
+33a7 resultats{12|6A9} 5|54b7 57r25 60r23 64r31
+39U14*resoudreSudoku 40=7 41<7 42=6 5|73b14 148l8 148t22
+40a7 g{13|6A9} 5|73b30 91r28 92r58 95m32 110r31 111r61 114r56 121r47 122m44
+. 135m35 144r24
+41b7 trouve{boolean} 5|73b54 84m7 85r17 145m13
+42i6 cpt{integer} 5|73b76 83m7 95m85 135m49
+X 5 resolutions.adb
+11a7 colonne{12|6A9} 20m7 25r36
+12a7 ligne{12|6A9} 21m7 25r73
+13a7 carre{12|6A9} 23m7 25r108
+14i7 numCarre{integer} 22m7 23r41
+35a7 solutions_possibles{12|6A9} 40m7 43m28 43r28 46r14
+41i11 i{integer} 42r33 43r48
+63i11 i{integer} 64r41 65r20
+74r7 c{11|3R9} 90m16 91r30 92r60 95r34 109m19 110r33 111r63 116r47 118r54
+. 128r47 129r51 134r64 135r37
+75a7 solutions{12|6A9} 89m16 92m19 94r34 94r73 95r73 108m19 111m22 113r38
+. 131r74
+76b7 maj{boolean} 86m10 96m19 107r23 136m22
+77r7 pile_Coordonnees{14|11R9} 102m10 113r65 114r66 115m28 115r53 134m22
+. 134r47
+78i7 backtrack{integer} 112m22 114m28 131r28 131r84 132m25 132r36 135r39
+79r7 c2{11|3R9} 120m31 121r49 122m46 122r46
+80i7 ligne{integer} 103m10 104r16 109r46 116m25 117r31 120r59 126m28 126r37
+. 128m25 141m13 141r22
+81i7 colonne{integer} 105m13 106r19 109r52 118m28 119r34 120r65 124m31 124r42
+. 129m25 139m16 139r27
+87i14 i{integer} 90r41
+88i17 j{integer} 90r43
+X 11 tad_coordonnee.ads
+1K9*TAD_Coordonnee 4|1w6 1r28 11|28e19
+3R9*Type_Coordonnee 4|19r14 26r14 5|9r44 33r34 74r11 79r12 11|26e14
+6V13*construireCoordonnees{3R9} 5|90s19 109s24 120s37
+11V13*obtenirLigne{integer} 5|21s42 116s34 128s34
+14V13*obtenirColonne{integer} 5|20s46 118s39 129s36
+17V13*obtenirCarre{integer} 5|22s19
+X 12 tad_ensemble.ads
+1K9*TAD_ensemble 4|2w6 2r28 12|34e17
+6A9*Type_Ensemble(boolean) 4|26r38 33r22 5|11r17 12r15 13r15 33r58 35r29
+. 54r22 75r19
+9V13*construireEnsemble{6A9} 5|40s28 89s29 108s32
+12V13*ensembleVide{boolean} 5|60s10 94s60 113s25
+15V13*appartientChiffre{boolean} 5|25s18 25s55 25s90 64s13 131s56
+19V13*nombreChiffres{integer} 5|57s10 94s19
+24U14*ajouterChiffre 5|43s13
+X 13 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 4|3w6 3r28 13|67e21
+6A9*Type_Grille(integer) 4|17r14 25r14 40r23 5|9r14 33r14 73r41
+18V13*caseVide{boolean} 5|16s14 37s14 91s19 110s22 121s38
+25V13*obtenirChiffre{integer} 5|114s41
+35U14*fixerChiffre 5|95s19 135s22
+44U14*viderCase 5|122s34
+47V13*estRemplie{boolean} 5|144s13
+50V13*obtenirChiffresDUneLigne{12|6A9} 5|21s15
+55V13*obtenirChiffresDUneColonne{12|6A9} 5|20s17
+60V13*obtenirChiffresDUnCarre{12|6A9} 5|23s15
+X 14 tad_pile.ads
+3K9*TAD_Pile 4|4w6 4r20 14|42e13
+11R9*Pile 5|77r26 14|41e14
+15V13*construirePile{11R9} 5|102s30
+19V13*empile{11R9} 5|134s40
+24V13*depile{11R9} 5|115s46
+28V13*estVide{boolean} 5|113s57
+33V13*dernier{11|3R9} 5|114s58
+
